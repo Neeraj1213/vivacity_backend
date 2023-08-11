@@ -4,10 +4,8 @@ import cors from 'cors';
 const app = express();
 const port = 3000;
 
-// Enable CORS
 app.use(cors());
 
-// API endpoint
 app.get('/awesome/applicant', (req, res) => {
   const funInformation = {
     name: 'Neeraj Pillai',
